@@ -1,7 +1,5 @@
-function iWillHaveConflicts(a, b) {
-  const _a = a + 1;
-  const _b = b + 2;
-  return _a + _b;
+function iWillHaveConflicts() {
+  return 1 + 2;
 }
 
-console.log(iWillHaveConflicts(10, 12));
+console.log(iWillHaveConflicts());
